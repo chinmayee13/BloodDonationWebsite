@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blood Donation Matcher — Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      margin: 0;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #c82333, #dc3545);
+      box-shadow: 0 3px 8px rgba(0,0,0,.3);
+    }
+    .navbar-brand { color: #fff !important; font-weight: 600; }
+
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(rgba(220,53,69,0.85), rgba(220,53,69,0.85)),
+        url("assets/img/bg.jpg") center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      border-radius: 0 0 60px 60px;
+    }
+    .hero h1 { font-weight: 700; font-size: 2.5rem; }
+    .hero p { max-width: 650px; margin: 10px auto 30px; font-size: 1.1rem; }
+
+    /* FEATURES */
+    .features .icon {
+      font-size: 2rem;
+      color: #dc3545;
+    }
+    footer {
+      background: #dc3545;
+      color: #fff;
+      text-align: center;
+      padding: 12px 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="bi bi-droplet-half me-2"></i>Blood Donation Matcher</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-house-door"></i> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="participant-login.html"><i class="bi bi-person"></i> Participant</a></li>
+          <li class="nav-item"><a class="nav-link" href="admin-login.html"><i class="bi bi-shield-lock"></i> Admin</a></li>
+          <li class="nav-item"><a class="nav-link" href="donor.html"><i class="bi bi-person-plus"></i> Donor</a></li>
+          <li class="nav-item"><a class="nav-link" href="recipient.html"><i class="bi bi-search-heart"></i> Recipient</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1><i class="bi bi-heart-pulse-fill"></i> Donate Blood, Save Lives</h1>
+    <p class="mb-4">Join our community of heroes. Every drop you give can save a life.</p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="participant-login.html" class="btn btn-light text-danger fw-semibold"><i class="bi bi-person-plus"></i> Get Started</a>
+      <a href="recipient.html" class="btn btn-outline-light fw-semibold"><i class="bi bi-search-heart"></i> Find Donor</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features container text-center my-5">
+    <h2 class="fw-semibold text-danger mb-4">What You Can Do</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="icon mb-2"><i class="bi bi-person-plus"></i></div>
+        <h5>Register as Donor</h5>
+        <p class="text-secondary">Become a life saver — register your details today.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="icon mb-2"><i class="bi bi-search-heart"></i></div>
+        <h5>Find Donors</h5>
+        <p class="text-secondary">Search compatible donors in seconds.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="icon mb-2"><i class="bi bi-shield-lock"></i></div>
+        <h5>Admin Manage</h5>
+        <p class="text-secondary">Admins can view, delete or export donor records.</p>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
