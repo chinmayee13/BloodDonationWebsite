@@ -1,0 +1,24 @@
+# Node / frontend
+node_modules/
+
+# Python / virtualenv (if any)
+venv/
+env/
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# env files / secret keys
+.env
+*.env
+
+# build / dist
+dist/
+build/
+
+# logs
+*.log
